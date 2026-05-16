@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:background="@color/light_blue_bg">
+
+    <LinearLayout
+        android:id="@+id/layoutStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Изучение испанского"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btnStartCourse"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:text="НАЧАТЬ"
+            android:textSize="18sp"
+            android:backgroundTint="@color/primary_blue"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layoutQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+        <ProgressBar
+        android:id="@+id/courseProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+            android:progressTint="@color/primary_blue"
+            android:progressBackgroundTint="@color/gray_light"/>
+
+        <FrameLayout
+            android:id="@+id/task_container"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginVertical="16dp"
+            app:layout_constraintBottom_toTopOf="@id/btnNext"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/courseProgressBar" />
+
+        <Button
+            android:id="@+id/btnNext"
+            android:layout_width="0dp"
+            app:layout_constraintWidth_percent="0.7"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:layout_marginBottom="24dp"
+            android:text="Далее"
+            android:textSize="18sp"
+            android:enabled="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:backgroundTint="@color/primary_blue"
+            android:visibility="gone"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

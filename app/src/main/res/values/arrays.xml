@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spanish_vocab">
+        <item>Отец|Padre</item>
+        <item>Мать|Madre</item>
+        <item>Брат|Hermano</item>
+        <item>Сестра|Hermana</item>
+        <item>Сын|Hijo</item>
+        <item>Дочь|Hija</item>
+        <item>Дедушка|Abuelo</item>
+        <item>Бабушка|Abuela</item>
+
+        <item>Январь|Enero</item>
+        <item>Февраль|Febrero</item>
+        <item>Март|Marzo</item>
+        <item>Апрель|Abril</item>
+        <item>Май|Mayo</item>
+        <item>Июнь|Junio</item>
+        <item>Июль|Julio</item>
+        <item>Август|Agosto</item>
+        <item>Сентябрь|Septiembre</item>
+        <item>Октябрь|Octubre</item>
+        <item>Ноябрь|Noviembre</item>
+        <item>Декабрь|Diciembre</item>
+
+        <item>Яблоко|Manzana</item>
+        <item>Банан|Plátano</item>
+        <item>Апельсин|Naranja</item>
+        <item>Виноград|Uva</item>
+        <item>Лимон|Limón</item>
+        <item>Помидор|Tomate</item>
+        <item>Огурец|Pepino</item>
+        <item>Морковь|Zanahoria</item>
+        <item>Картофель|Patata</item>
+        <item>Лук|Cebolla</item>
+
+        <item>Красный|Rojo</item>
+        <item>Синий|Azul</item>
+        <item>Зеленый|Verde</item>
+        <item>Желтый|Amarillo</item>
+        <item>Черный|Negro</item>
+        <item>Белый|Blanco</item>
+        <item>Розовый|Rosa</item>
+        <item>Серый|Gris</item>
+
+        <item>Привет|Hola</item>
+        <item>Спасибо|Gracias</item>
+        <item>Кот|Gato</item>
+        <item>Собака|Perro</item>
+        <item>Хлеб|Pan</item>
+        <item>Вода|Agua</item>
+        <item>Книга|Libro</item>
+
+
+<!--слова с песни-->
+<!--        <item>Сегодня|Hoy</item>-->
+<!--        <item>Я встаю|Me levanto</item>-->
+<!--        <item>Я думаю|Pienso</item>-->
+<!--        <item>Я иду|Voy</item>-->
+<!--        <item>Я оставляю|Dejo</item>-->
+<!--        <item>Всё|Todo</item>-->
+<!--        <item>Затем|Luego</item>-->
+<!--        <item>Я кладу|Pongo</item>-->
+<!--        <item>Рука|Mano</item>-->
+<!--        <item>Воздух|Aire</item>-->
+<!--        <item>Я бросаю|Echo</item>-->
+<!--        <item>Полет|Vuelo</item>-->
+<!--        <item>Я усложняю|Complico</item>-->
+<!--        <item>Жизнь|Vida</item>-->
+<!--        <item>Я наслаждаюсь|Disfruto</item>-->
+<!--        <item>Я хочу|Quiero</item>-->
+<!--        <item>Больше|Más</item>-->
+<!--        <item>Я есть|Soy</item>-->
+<!--        <item>Ничего|Nada</item>-->
+<!--        <item>Ни|Ni</item>-->
+<!--        <item>Минута|Minuto</item>-->
+<!--        <item>Я теряю|Pierdo</item>-->
+<!--        <item>Ветер|Viento</item>-->
+<!--        <item>Я чувствую|Siento</item>-->
+<!--        <item>Время|Tiempo</item>-->
+<!--        <item>Я рисую|Pinto</item>-->
+<!--        <item>Момент|Momento</item>-->
+<!--        <item>Облако|Nube</item>-->
+<!--        <item>Я преследую|Persigo</item>-->
+<!--        <item>Я знаю|Sé</item>-->
+<!--        <item>Я пою|Canto</item>-->
+<!--        <item>Хорошо проводить время|Pasarlo bien</item>-->
+<!--        <item>Улица|Calle</item>-->
+<!--        <item>Я могу|Puedo</item>-->
+<!--        <item>Я начинаю|Empiezo</item>-->
+<!--        <item>Я вижу|Veo</item>-->
+<!--        <item>Будущее|Futuro</item>-->
+<!--        <item>Я нахожусь|Estoy</item>-->
+<!--        <item>Я стучу|Llamo</item>-->
+<!--        <item>Дверь|Puerta</item>-->
+<!--        <item>Так что|Así que</item>-->
+<!--        <item>Я пользуюсь|Aprovecho</item>-->
+<!--        <item>Я делаю|Hago</item>-->
+<!--        <item>Я говорю|Digo</item>-->
+<!--        <item>Дом|Casa</item>-->
+<!--        <item>Остаюсь позади|Me quedo atrás</item>-->
+<!--        <item>Размытый|Desenfocado</item>-->
+<!--        <item>Дерево|Árbol</item>-->
+<!--        <item>Я прохожу|Paso</item>-->
+<!--        <item>Вокруг|Alrededor</item>-->
+    </string-array>
+</resources>
